@@ -1,4 +1,11 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background: #fff;
+}
 .header__top{
     width:100%;
     padding:15px 0;
@@ -73,7 +80,9 @@
 .main{
     width: 100%;
     padding: 50px 0 86px;
+
     margin: 0 auto;
+    margin-top: 124px;
     background: url("../img/fon.jpg") center/1em no-repeat;
     background-size:cover;
     .container{
