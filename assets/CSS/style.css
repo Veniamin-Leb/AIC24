@@ -10247,7 +10247,6 @@ fieldset:disabled .btn {
 header {
   width: 100%;
   max-height: 127px;
-  position: fixed;
   top: 0;
   z-index: 1000;
   background: #fff;
@@ -10346,6 +10345,13 @@ header {
   justify-content: space-between;
 }
 
+.sticky {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
 .bg-light {
   background-color: #135B86 !important;
 }
@@ -10388,7 +10394,6 @@ header {
 .main {
   width: 100%;
   padding: 50px 0 86px;
-  margin-top: 127px;
   background: url("../img/fon.jpg") center/1em no-repeat;
   background-size: cover;
 }
