@@ -31,7 +31,7 @@
         </div>
       </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-light" id="navbar">
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -135,7 +135,7 @@
                       </div>
                       <div class="mb-3">
                         <label for="exampleInputPassword2" class="form-label">Номер телефона <span>*</span></label>
-                        <input type="tel" class="form-control" id="exampleInputPassword2" placeholder="+7 (___) ___-__-__">
+                        <input class="form-control" id="exampleInputPassword2" data-inputmask="'alias': 'phonebe'" aria-describedby="exampleInputPassword2" placeholder='+7 (___) ___-__-__'>
                       </div>
                       <div class="mb-3">
                         <label for="exampleInputEmail2" class="form-label">E-mail <span>*</span></label>
@@ -571,6 +571,10 @@
     </div>
   </footer>
   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type='text/javascript' src='https://code.jquery.com/jquery-1.11.0.js'></script>
+  <script type='text/javascript' src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+  <script src="js/script.js"></script>
   <script src="js/bootstrap.js"></script>
 </body>
 </html>
