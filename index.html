@@ -14,7 +14,9 @@
     <div class="container">
       <div class="header__top">
         <div class="top__logo">
-          <img src="assets/img/logo.png" alt="#">
+            <img src="assets/img/лого.svg" alt="#">
+            <div>Официальный сайт<br>управляющей организации</div>
+            <div class="ais24">Проект<br><a href="https://ais24.ru/">АИС <span>24</span></a></div>
         </div>
         <div class="top__phone">
           <p>
@@ -71,8 +73,8 @@
         <h2>Закажите БЕСПЛАТНУЮ консультацию!</h2>
         <form>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Название компании <span>*</span></label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="basic-addon1" class="form-label">Название компании <span>*</span></label>
+            <input type="text" class="form-control" id="basic-addon1" aria-describedby="basic-addon1">
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Номер телефона <span>*</span></label>
@@ -91,20 +93,27 @@
     <div class="container">
       <h2>Как создать свой сайт?</h2>
         <div class="howmade__block">
+          <div class="block__title">          
             <img src="assets/img/contract.svg" alt="#">
-            <h3>ЗАКЛЮЧЕНИЕ ДОГОВОРА</h3>
+            <h3>ЗАКЛЮЧЕНИЕ<br>ДОГОВОРА</h3>
+          </div>
+          <div class="block__content">
             <span>1</span>  
             <p>Отправьте нам заявку прямо на сайте.
-            С Вами свяжется наш специалист и обсудит все детали предстоящего договора. 
-            Заполнение и подписание документов.</p>
+              С Вами свяжется наш специалист и обсудит все детали предстоящего договора.
+              Заполнение и подписание документов.</p>
+          </div>
         </div>
         <div class="howmade__block">
-          <img src="assets/img/wallet.svg" alt="#">
-          <h3>ОПЛАТА<br>СЧЁТА</h3>
-          <span>2</span>  
-          <p>Основываясь на выбраных услугах, мы выставляем счёт.
-            По указанным реквизитам 
-            Вы производите оплату согласно подписанному договору. </p>
+          <div class="block__title">          
+            <img src="assets/img/wallet.svg" alt="#">
+            <h3>ОПЛАТА<br>СЧЁТА</h3></div>
+          <div class="block__content">
+            <span>2</span>  
+            <p>Основываясь на выбраных услугах, мы выставляем счёт.
+              По указанным реквизитам 
+              Вы производите оплату согласно подписанному договору. </p>
+          </div>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
               Заказать
             </button>
@@ -121,16 +130,16 @@
                   <div class="modal-body">
                     <form>
                       <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Название компании <span>*</span></label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="basic-addon2" class="form-label">Название компании <span>*</span></label>
+                        <input type="text" class="form-control" id="basic-addon2" aria-describedby="basic-addon2">
                       </div>
                       <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Номер телефона <span>*</span></label>
-                        <input type="tel" class="form-control" id="exampleInputPassword1">
+                        <label for="exampleInputPassword2" class="form-label">Номер телефона <span>*</span></label>
+                        <input type="tel" class="form-control" id="exampleInputPassword2" placeholder="+7 (___) ___-__-__">
                       </div>
                       <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">E-mail <span>*</span></label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="exampleInputEmail2" class="form-label">E-mail <span>*</span></label>
+                        <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
                       </div>
                     </form>
                   </div>
@@ -147,12 +156,16 @@
             </div>
         </div>
         <div class="howmade__block">
+          <div class="block__title">          
             <img src="assets/img/computer.svg" alt="#">
-            <h3>САЙТ ГОТОВ В ТЕЧЕНИЕ СУТОК!</h3>
+            <h3>САЙТ ГОТОВ В <br>
+              ТЕЧЕНИЕ СУТОК!</h3>
+          </div>
+          <div class="block__content">
             <span>3</span>  
-            <p>После поступления денежных средств на счёт нашей компании,
-              специальсты разробатывают и подключают Ваш сайт.
-              Приступайте к работе!</p>
+            <p>После поступления денежных средств на счёт нашей компании, специальсты разробатывают и подключают Ваш сайт.
+              Приступайте к работе! </p>
+          </div>
         </div>
     </div>
   </div>
@@ -170,27 +183,27 @@
                 </th>
                 <th scope="col">
                   <h3>Базовый</h3>
-                  <span>8000 Р/год</span>
-                  <p>6990 Р/год</p>
+                  <span>8000 ₽/год</span>
+                  <p>6990 ₽/год</p>
                   <button type="submit" class="btn btn-primary">Заказать</button>
                 </th>
                 <th scope="col">
                   <h3>Оптима</h3>
-                  <span>14000 Р/год</span>
-                  <p>11990 Р/год</p>
+                  <span>14000 ₽/год</span>
+                  <p>11990 ₽/год</p>
                   <button type="submit" class="btn btn-primary">Заказать</button>
                 </th>
                 <th scope="col">
                   <h3>Профи</h3>
-                  <span>20000 Р/год</span>
-                  <p>16890 Р/год</p>
+                  <span>20000 ₽/год</span>
+                  <p>16890 ₽/год</p>
                   <button type="submit" class="btn btn-primary">Заказать</button>
                 </th>
               </tr>
             </thead>
-            <tbody></tbody>
+            <tbody>
               <tr>
-                <th scope="row">Резервирование и поддержание пространства на сервере под сайт;</th>
+                <th scope="row">Резервирование и поддержание пространства на сервере <br> под сайт;</th>
                 <td><svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 11.12L9.2 21L20 2" stroke="#1E92D7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
@@ -220,7 +233,7 @@
                 </td>
               </tr>
               <tr>
-                <th scope="row">Обновление и ежедневная техническая поддержка работоспособности сайта;</th>
+                <th scope="row">Обновление и ежедневная техническая поддержка <br> работоспособности сайта;</th>
                 <td><svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 11.12L9.2 21L20 2" stroke="#1E92D7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
@@ -235,7 +248,7 @@
                 </td>
               </tr>
               <tr>
-                <th scope="row">Доступ к полному функционалу сайта, в том числе и к административному разделу для управления;</th>
+                <th scope="row">Доступ к полному функционалу сайта, в том числе и к <br> административному разделу для управления;</th>
                 <td><svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 11.12L9.2 21L20 2" stroke="#1E92D7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
@@ -281,7 +294,7 @@
                 </td>
               </tr>
               <tr>
-                <th scope="row">Вывод начислений жителям на главной странице по номеру лицевого счета с QR кодом;</th>
+                <th scope="row">Вывод начислений жителям на главной странице по <br> номеру лицевого счета с QR кодом;</th>
                 <td><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect width="20" height="20" fill="#C4C4C4"/>
                   <line x1="5" y1="9.5" x2="15" y2="9.5" stroke="#989999" stroke-width="3"/>
@@ -328,12 +341,8 @@
           <li><img src="assets/img/Gal.svg" alt="#"> Помощь в подборе и регистрации домена -  <span>890 ₽/услуга</span>;</li>
           <li><img src="assets/img/Gal.svg" alt="#"> Сопровождение обновления информации об организации и одного МКД на сайте -  <span>500 ₽/мес</span><span> + 50 ₽/мес</span>. за дополнительное МКД **.</li>
         </ul>
-        <p>
-          * для выгрузки информации из ГИС ЖКХ потребуется предоставить доступ Оператору ИС – АИС24.
-          <br>
-          <br>
-          ** услуга сопровождения осуществляется после направления на электронную почту исполнителя информации для размещения на сайте. Услуга оплачивается единовременно на период действия договора, дополнительные разъяснения можно получить у нашего менеджера.
-        </p>
+        <p>* для выгрузки информации из ГИС ЖКХ потребуется предоставить доступ Оператору ИС – АИС24.</p>
+        <p>** услуга сопровождения осуществляется после направления на электронную почту исполнителя информации для размещения на сайте. Услуга оплачивается единовременно на период действия договора, дополнительные разъяснения можно получить у нашего менеджера.</p>
         <div class="feachers__dop">
           <div class="dop__logo">
             <img src="assets/img/gift.svg" alt="#">
@@ -444,13 +453,13 @@
     <div class="container">
       <h2>Примеры</h2>
       <div class="ref__block">
-        <div class="ref__img">
-          <img src="assets/img/loupe.svg" alt="#">
-        </div>
-        <img src="assets/img/foto-tur.PNG" alt="#">
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
-          ТСЖ Туристская 4 >>
+          <div class="ref__img">
+            <img src="assets/img/loupe.svg" alt="#">
+          </div>
+          <img src="assets/img/foto-tur.PNG" alt="#">
         </button>
+        <a href="#">ТСЖ Туристская 4 >></a>
         <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="4" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -467,13 +476,13 @@
         </div>
       </div>
       <div class="ref__block">
-        <div class="ref__img">
-          <img src="assets/img/loupe.svg" alt="#">
-        </div>
-        <img src="assets/img/foto-terma.PNG" alt="#">
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
-          ООО ПСО-Терма >>
+          <div class="ref__img">
+            <img src="assets/img/loupe.svg" alt="#">
+          </div>
+          <img src="assets/img/foto-terma.PNG" alt="#">
         </button>
+        <a href="#">ООО ПСО-Терма >></a>
         <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -490,13 +499,13 @@
         </div>
       </div>
       <div class="ref__block">
-        <div class="ref__img">
-          <img src="assets/img/loupe.svg" alt="#">
-        </div>
-        <img src="assets/img/foto-babush.PNG" alt="#">
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-          ЖСК Бабушкинский >>
+          <div class="ref__img">
+            <img src="assets/img/loupe.svg" alt="#">
+          </div>
+          <img src="assets/img/foto-babush.PNG" alt="#">
         </button>
+        <a href="#">ЖСК Бабушкинский >></a>
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -517,7 +526,7 @@
   <div class="contacts">
     <h2>Контакты</h2>
     <div class="contacts__map">
-      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8c9bd400f004e185375406a9e4e00f07308ebda454556081fc295ff19804f3a7&amp;width=100%25&amp;height=566&amp;lang=ru_RU&amp;scroll=false"></script>
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8c9bd400f004e185375406a9e4e00f07308ebda454556081fc295ff19804f3a7&amp;width=100%25&amp;height=570&amp;lang=ru_RU&amp;scroll=false"></script>
     </div>
     <div class="container">
       <div class="contacts__addres">
@@ -537,16 +546,16 @@
           <div class="part__text">
             <p>г. Москва,</p>
             <p>Электрический пер., д. 8, стр. 5</p>
-            <p>Телефон: <span>8 800 700-09-54</span></p>
-            <p>Электронная почта: <span>info@ais24.ru</span></p>
+            <p>Телефон: <a>8 800 700-09-54</a></p>
+            <p>Электронная почта: <a>info@ais24.ru</a></p>
           </div>
         </div>
         <div class="addres__part">
           <div class="part__logo">
-            <img src="assets/img/лого.svg" alt="#">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1719.951 361.311 325.128 35.994"><defs><style>.cls-1{fill:#70bdf2}.cls-2{fill:#03131f}</style></defs><g id="Group_290" data-name="Group 290" transform="translate(1350)"><path id="Path_5407" data-name="Path 5407" class="cls-1" d="M0 .2v35.994l20.593-18.343 20.42 18.343V.2zm38.417 30.283L20.593 14.39 2.6 30.483v-4.672l18-15.92 18 15.92v4.672zm0-26.476v18.17L21.112 6.6l-.519-.519-.519.519L2.769 22.177V2.8h35.648z" transform="translate(369.951 361.111)"/><path id="Rectangle_82" data-name="Rectangle 82" class="cls-2" transform="translate(386.218 387.96)" d="M0 0h3.461v3.461H0z"/><path id="Rectangle_83" data-name="Rectangle 83" class="cls-2" transform="translate(391.756 387.96)" d="M0 0h3.461v3.461H0z"/><path id="Rectangle_84" data-name="Rectangle 84" class="cls-2" transform="translate(386.218 393.325)" d="M0 0h3.461v3.461H0z"/><path id="Rectangle_85" data-name="Rectangle 85" class="cls-2" transform="translate(391.756 393.325)" d="M0 0h3.461v3.461H0z"/><path id="Path_5773" data-name="Path 5773" class="cls-2" d="M11.008 0L6.9-10.672H4.048L-.08 0h2.592l.672-1.808H7.76L8.416 0zM7.136-3.808H3.808L5.472-8.4zM17.792 0a2.81 2.81 0 003.1-2.88 2.586 2.586 0 00-2.044-2.62 2.371 2.371 0 001.84-2.448 2.761 2.761 0 00-3.072-2.72H12V0zm-.672-6.4h-2.848v-2.32h2.848a1.148 1.148 0 011.248 1.168A1.136 1.136 0 0117.12-6.4zm.08 4.432h-2.928v-2.48H17.2A1.247 1.247 0 0118.576-3.2c0 .768-.512 1.232-1.376 1.232zM27.136 0v-8.672h3.1v-2h-8.508v2h3.12V0zm9.232.192a5.362 5.362 0 005.584-5.52 5.362 5.362 0 00-5.584-5.52 5.358 5.358 0 00-5.568 5.52 5.358 5.358 0 005.568 5.52zm0-2.016a3.236 3.236 0 01-3.232-3.5 3.227 3.227 0 013.232-3.5 3.24 3.24 0 013.248 3.5 3.248 3.248 0 01-3.248 3.5zM55.12 0v-10.672h-3.2l-2.592 6.448-2.592-6.448h-3.184V0h2.272v-7.472L48.832 0h.992l3.008-7.472V0zm12.064 0l-4.112-10.672h-2.848L56.1 0h2.592l.672-1.808h4.576L64.592 0zm-3.872-3.808h-3.328L61.648-8.4zM71.9 0v-8.672H75v-2h-8.5v2h3.12V0zm6.752 0l5.088-7.152V0h2.272v-10.672H83.68l-4.944 6.9v-6.9h-2.272V0zm13.14.192c2.544 0 4.384-1.3 4.384-3.136A2.676 2.676 0 0093.7-5.5a2.617 2.617 0 002.32-2.432c0-1.776-1.728-2.9-4.224-2.9a5.663 5.663 0 00-4.256 1.7l1.136 1.424a4.275 4.275 0 012.9-1.1c1.216 0 2.176.416 2.176 1.264 0 .784-.912 1.136-2.176 1.136h-2.16v2h2.16c1.6 0 2.352.384 2.352 1.232 0 .8-.816 1.36-2.224 1.36a4.68 4.68 0 01-3.12-1.216L87.392-1.52a5.786 5.786 0 004.4 1.712zM100.08 0l5.088-7.152V0h2.272v-10.672h-2.34l-4.944 6.9v-6.9h-2.268V0zm11.744 0v-3.792h2.72a3.347 3.347 0 003.584-3.44 3.33 3.33 0 00-3.584-3.44h-4.992V0zm2.416-5.792h-2.416v-2.88h2.416a1.43 1.43 0 011.568 1.44 1.439 1.439 0 01-1.568 1.44zM124.592.192a5.362 5.362 0 005.584-5.52 5.362 5.362 0 00-5.584-5.52 5.358 5.358 0 00-5.568 5.52 5.358 5.358 0 005.568 5.52zm0-2.016a3.236 3.236 0 01-3.232-3.5 3.227 3.227 0 013.232-3.5 3.24 3.24 0 013.248 3.5 3.248 3.248 0 01-3.248 3.5zM137.568 0a2.81 2.81 0 003.1-2.88 2.586 2.586 0 00-2.044-2.62 2.371 2.371 0 001.84-2.448 2.761 2.761 0 00-3.072-2.72h-5.616V0zm-.668-6.4h-2.848v-2.32h2.848a1.148 1.148 0 011.248 1.168A1.136 1.136 0 01136.9-6.4zm.08 4.432h-2.928v-2.48h2.928a1.247 1.247 0 011.372 1.248c0 .768-.512 1.232-1.376 1.232zM152.336 0l-4.112-10.672h-2.848L141.248 0h2.592l.672-1.808h4.576L149.744 0zm-3.872-3.808h-3.328L146.8-8.4zM162.928 0v-10.672h-2.288v4.192h-5.04v-4.192h-2.272V0h2.272v-4.48h5.04V0zm11.7 0v-10.672h-2.288v4.192h-5.04v-4.192h-2.272V0h2.272v-4.48h5.04V0zm12.048 0l-4.116-10.672h-2.848L175.584 0h2.592l.672-1.808h4.576L184.08 0zM182.8-3.808h-3.328l1.664-4.592zM189.808 0l2.112-3.792h1.648V0h2.272v-10.672h-4.992a3.323 3.323 0 00-3.584 3.44 3.062 3.062 0 002.336 3.168L187.2 0zm1.376-5.792a1.449 1.449 0 01-1.6-1.44 1.449 1.449 0 011.6-1.44h2.384v2.88zM3.248 20l5.088-7.152V20h2.272V9.328H8.272l-4.944 6.9v-6.9H1.056V20zm19.072 0V9.328h-2.288v4.192h-5.04V9.328H12.72V20h2.272v-4.48h5.04V20zm9.008 0v-1.072c3.232-.272 5.152-1.792 5.152-4.256s-1.92-3.968-5.152-4.256V9.328h-2.272v1.088c-3.232.288-5.152 1.808-5.152 4.256 0 2.464 1.92 3.984 5.152 4.256V20zm2.832-5.328c0 1.216-.992 2.016-2.832 2.224v-4.448c1.84.224 2.832 1.008 2.832 2.224zm-7.92 0c0-1.2.976-2 2.816-2.224V16.9c-1.84-.228-2.816-1.012-2.816-2.228zm16.912 5.52a5.362 5.362 0 005.584-5.52 5.362 5.362 0 00-5.584-5.52 5.358 5.358 0 00-5.568 5.52 5.358 5.358 0 005.568 5.52zm0-2.016a3.236 3.236 0 01-3.232-3.5 3.25 3.25 0 116.48 0 3.248 3.248 0 01-3.248 3.5zM52.608 20v-3.792h2.72a3.347 3.347 0 003.584-3.44 3.33 3.33 0 00-3.584-3.44h-4.992V20zm2.416-5.792h-2.416v-2.88h2.416a1.445 1.445 0 110 2.88zM71.888 20V9.328h-3.2L66.1 15.776l-2.6-6.448h-3.18V20h2.272v-7.472L65.6 20h.992l3.008-7.472V20zm12.064 0L79.84 9.328h-2.848L72.864 20h2.592l.672-1.808H80.7L81.36 20zm-3.872-3.808h-3.328l1.664-4.592zm13.152 5.776H95.5V18h-.96V9.328h-2.284V18h-5.04V9.328h-2.272V20h8.288zM99.024 20l5.088-7.152V20h2.272V9.328h-2.336l-4.944 6.9v-6.9h-2.272V20zm14.528.192a5.362 5.362 0 005.584-5.52 5.576 5.576 0 00-11.152 0 5.358 5.358 0 005.568 5.52zm0-2.016a3.236 3.236 0 01-3.232-3.5 3.25 3.25 0 116.48 0 3.248 3.248 0 01-3.248 3.5zM130.336 20V9.328h-2.288v4.192h-5.04V9.328h-2.272V20h2.272v-4.48h5.04V20zm11.7 0V9.328h-2.288v4.192H134.7V9.328h-2.272V20h2.272v-4.48h5.04V20zm12.048 0l-4.116-10.672h-2.848L142.992 20h2.592l.672-1.808h4.576l.656 1.808zm-3.872-3.808h-3.332l1.664-4.592zM157.216 20l2.112-3.792h1.648V20h2.272V9.328h-4.992a3.323 3.323 0 00-3.584 3.44 3.062 3.062 0 002.336 3.168l-2.4 4.064zm1.376-5.792a1.448 1.448 0 110-2.88h2.384v2.88zm16.032 5.984a4.915 4.915 0 004.464-2.624l-1.952-.944a2.862 2.862 0 01-2.512 1.552 3.323 3.323 0 01-3.344-3.5 3.323 3.323 0 013.344-3.5 2.892 2.892 0 012.512 1.552l1.952-.96a4.885 4.885 0 00-4.464-2.608 5.423 5.423 0 00-5.68 5.52 5.423 5.423 0 005.68 5.512zM182.64 20l5.088-7.152V20H190V9.328h-2.336l-4.944 6.9v-6.9h-2.272V20zm14.64.192a4.915 4.915 0 004.464-2.624l-1.952-.944a2.862 2.862 0 01-2.512 1.552 3.323 3.323 0 01-3.344-3.5 3.323 3.323 0 013.344-3.5 2.892 2.892 0 012.512 1.552l1.952-.96a4.885 4.885 0 00-4.464-2.608 5.423 5.423 0 00-5.68 5.52 5.423 5.423 0 005.68 5.512zM207.856 20v-8.672h3.1v-2h-8.512v2h3.12V20zm12.112 0v-2h-5.28v-2.416h5.168v-2h-5.168v-2.256h5.28v-2h-7.552V20zm13.344 0V9.328h-3.2l-2.592 6.448-2.592-6.448h-3.184V20h2.272v-7.472L227.024 20h.992l3.008-7.472V20zm12.064 0l-4.112-10.672h-2.848L234.288 20h2.592l.672-1.808h4.576l.656 1.808zm-3.876-3.808h-3.328l1.668-4.592z" transform="translate(425.327 374.234)"/><path id="Path_5774" data-name="Path 5774" class="cls-1" d="M8.784 0v-2H4.432C7.2-4.016 8.7-5.6 8.7-7.424c0-2.128-1.808-3.408-4.08-3.408A5.436 5.436 0 00.512-9.088l1.3 1.5a3.815 3.815 0 012.86-1.228c.88 0 1.728.464 1.728 1.392 0 1.312-1.28 2.416-5.648 5.648V0zm8.592 0v-2.208h1.376v-2h-1.376v-6.464H14.24L10-4v1.792h5.1V0zM15.1-4.208h-2.88l2.88-4.448z" transform="translate(676.327 394.234)"/></g></svg>
           </div>
           <div class="part__text">
-            <p><span>ООО «ЖКХ-Онлайн»</span></p>
+            <a>ООО «ЖКХ-Онлайн»</a>
             <p><span>ИНН</span> 9710019122</p>
             <p><span>ОГРН</span> 5167746232583</p>
           </div>
