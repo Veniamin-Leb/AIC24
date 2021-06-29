@@ -10500,11 +10500,12 @@ header {
 }
 
 .howmade {
-  padding: 65px 0;
+  padding-bottom: 65px;
 }
 
 .howmade h2, .howmade .h2 {
   width: 100%;
+  padding-top: 67px;
   padding-bottom: 37px;
   text-align: center;
   text-transform: uppercase;
