@@ -1086,3 +1086,35 @@ footer{
         color: #FFFFFF;
     }
 }
+
+
+#myBtn {
+    display: none; 
+
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+
+    width: 79px;
+    height: 79px;
+    border: none; 
+    outline: none; 
+    background-color: #135B86; 
+    color: #fff; 
+    
+    cursor: pointer;
+    padding: 0;
+    border-radius: 50%; 
+    font-size: 18px;
+    
+    img{
+        width: 50px;
+        vertical-align: top;
+    }
+}
+
+#myBtn:hover {
+    background-color: #1E92D7; 
+    border: 5px solid #747474;
+}
