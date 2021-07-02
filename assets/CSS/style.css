@@ -10269,13 +10269,12 @@ header {
 
 .top__logo div {
   text-transform: uppercase;
-  line-height: 26px;
-  font-size: 22px;
+  line-height: 1.4;
+  font-size: 16px;
 }
 
 .top__logo img {
-  width: 64px;
-  height: 56px;
+  width: 44px;
   display: block;
   margin-right: 20px;
   fill-rule: evenodd;
@@ -10429,7 +10428,7 @@ header {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 170%;
   margin-bottom: 0;
 }
 
@@ -10493,6 +10492,10 @@ header {
   text-transform: uppercase;
   border: none;
   border-radius: 0;
+}
+
+.main__input button:hover {
+  background-color: #1E92D7;
 }
 
 .main__input span {
@@ -10593,6 +10596,10 @@ header {
   position: absolute;
   bottom: -2%;
   left: 27%;
+}
+
+.howmade__block button:hover {
+  background-color: #1E92D7;
 }
 
 .howmade__block .modal-dialog {
@@ -10754,6 +10761,10 @@ header {
   position: relative;
   left: 0;
   bottom: 0;
+}
+
+.howmade__block .modal-footer button:hover {
+  background-color: #1E92D7;
 }
 
 .howmade__block:nth-last-child(2) {
@@ -10989,6 +11000,10 @@ table {
   border-radius: 0;
 }
 
+.dop__info button:hover {
+  background-color: #1E92D7;
+}
+
 .pos {
   width: 100%;
 }
@@ -11104,6 +11119,10 @@ table {
   position: absolute;
   bottom: -5%;
   left: 40%;
+}
+
+.gkh button:hover {
+  background-color: #1E92D7;
 }
 
 .gkh__text {
@@ -11328,6 +11347,14 @@ table {
   text-transform: uppercase;
   border: none;
   border-radius: 0;
+}
+
+.contacts__addres button:hover {
+  background-color: #1E92D7;
+}
+
+.contacts__addres .addres__part:first-child img {
+  width: 46px;
 }
 
 .part__logo {

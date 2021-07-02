@@ -27,12 +27,11 @@ header{
     cursor: default;
     div{
         text-transform: uppercase;
-        line-height: 26px;
-        font-size: 22px;
+        line-height: 1.4;
+        font-size: 16px;
     }
     img{
-        width: 64px;
-        height: 56px;
+        width: 44px;
         display: block;
         margin-right: 20px;
         fill-rule: evenodd;
@@ -169,7 +168,7 @@ header{
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
-        line-height: 140%;
+        line-height: 170%;
         margin-bottom: 0;
     }
 }
@@ -230,6 +229,9 @@ header{
 
         border: none;
         border-radius: 0;
+    }
+    button:hover{
+        background-color: #1E92D7;
     }
     span{
         color:#1E92D7;
@@ -328,6 +330,9 @@ header{
         position: absolute;
         bottom:-2%;
         left: 27%;
+    }
+    button:hover{
+        background-color: #1E92D7;
     }
     .modal-dialog{
         max-width:775px;
@@ -478,6 +483,9 @@ header{
             position: relative;
             left: 0;
             bottom: 0;
+        }
+        button:hover{
+            background-color: #1E92D7;
         }
     }
 }
@@ -705,6 +713,9 @@ table {
         border:none;
         border-radius:0;
     }
+    button:hover{
+        background-color: #1E92D7;
+    }
 }
 
 .pos{
@@ -820,6 +831,9 @@ table {
         position: absolute;
         bottom:-5%;
         left: 40%;
+    }
+    button:hover{
+        background-color: #1E92D7;
     }
 }
 .gkh__text{
@@ -1025,6 +1039,14 @@ table {
 
         border: none;
         border-radius: 0;
+    }
+    button:hover{
+        background-color: #1E92D7;
+    }
+    .addres__part:first-child{
+        img{
+            width: 46px;
+        }
     }
 }
 .part__logo{
