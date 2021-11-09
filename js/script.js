@@ -29,7 +29,7 @@ $("[data-scroll]").on("click", function(event){
   let elemOffset = $(elemID).offset().top;
 
   $("html, body").animate({
-    scrollTop: elemOffset - 40
+    scrollTop: elemOffset
   }, 100);
 });
 
